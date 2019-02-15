@@ -1,0 +1,72 @@
+ul, li {
+    font-style: normal;
+    list-style: none;
+}
+#rem_s {margin-right: 2%;position: absolute; top: 5px; right: 3%;}
+.select 
+{
+    border-top: solid 1px #e6e6e6;
+    padding-right: 4%;
+    position: relative;
+    overflow: hidden;
+    padding: 12px 0;
+}
+.select img {
+    width: 80px;
+    height: 80px;
+    max-width: 80px;
+    max-height: 80px;
+    float: left;
+    margin-left: 28px;
+    border: 0;
+}
+.select h4 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    color: #333;
+    margin: 0;
+    margin-bottom: 2px;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.mr-6{
+    margin-right: 6%;
+}
+ p {
+    margin: 0;
+    color: #FC605A;
+    margin-top: 6px;
+    font-family: "-apple-system","Helvetica Neue",Roboto,"Segoe UI",sans-serif;
+}
+.div_center {
+    width: 69%;
+    float: left;
+    position: relative;
+    margin-top: 7px;
+    margin-left: 2%;
+}
+.div_right {
+    position: absolute;
+    bottom: 10px;
+    right: 4%;
+    border: solid 1px #e6e6e6;
+    border-radius: 4px;
+    width: 82px;
+    overflow: hidden;
+    text-align: center;
+    line-height: 30px;
+}
+.del {
+    position: absolute;
+    width: 50px;
+    height: 200px;
+    background: #FC605A;
+    right: 0;
+    top: 20%;
+}
