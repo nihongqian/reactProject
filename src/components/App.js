@@ -30,7 +30,6 @@ import Loading from "../common/Loading/Loading";
 import {connect} from 'react-redux';
 import * as types from '../store/types';
 
-
 const Detail = Loadable({
   loader: () => import('./Detail/Detail'),
   loading:()=>{return null}
